@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pureWhite</item>
+        <item name="colorPrimaryDark">@color/pureWhite</item>
+        <item name="colorAccent">@color/pureWhite</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- view分割线样式 -->
+    <style name="bg_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">#d9dde1</item>
+    </style>
+    <style name="bg_line_hori">
+        <item name="android:layout_width">2px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#d9dde1</item>
+    </style>
+
+</resources>
